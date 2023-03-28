@@ -1,0 +1,123 @@
+@charset "UTF-8";
+
+/*responsive - tablet*/
+/*max-width:1024px*/
+
+/*body {
+    background-color: aqua;
+}*/
+
+header .m-menu {
+    display: block;
+    float: right;
+    width: 8%;
+    /*outline: 2px solid red;*/
+}
+
+header .m-menu img {
+    width: 100%;
+}
+
+header nav {
+    display: none;
+}
+
+header .sns {
+    display: none;
+}
+
+/*********INTRO********/
+article.intro {
+    height: 500px;
+    background-position: right;
+    background-size: auto 400px;
+}
+
+.intro .txt-box {
+    width: 50%;
+}
+
+.intro .txt-box .des-ko {
+    font-size: 18px;
+    font-size: 1.125rem;
+}
+
+.intro .btn {
+    bottom: 20%;
+    padding: 10px;
+}
+
+/*********WORKS********/
+.works .img-wrap .img-box {
+    width: 48%;
+}
+
+.works .img-wrap .img-box:nth-child(2n+1) {
+    margin: 0 2% 2% 0;
+}
+
+.works .img-wrap .img-box:nth-child(2n) {
+    margin: 0 0 2% 2%;
+}
+
+/***********ABOUT*********/
+article.about {
+    background-size: auto;
+}
+
+.about p {
+    width: 70%;
+    margin: 0 auto 60px;
+}
+
+.about .btn-more {
+    padding: 10px;
+}
+
+/*************NEWS**********/
+.news .sec-tit {
+    margin: 0 0 10px;
+}
+
+.news .box .title {
+    margin: 8px 3px 6px 0;
+}
+
+/*******CONTACT******/
+.contact {
+    background-size: cover;
+}
+
+.contact .sec-tit {
+    font-size: 40px;
+    font-size: 2.5rem;
+    padding: 100px 0 0;
+}
+
+.contact p {
+    font-size: 20px;
+    font-size: 1.25rem;
+    margin: 50px 0 100px;
+}
+
+.contact .btn-more2 {
+    padding: 10px;
+}
+
+/*********FOOTER*********/
+footer .footer-box h3 {
+    font-size: 16px;
+    font-size: 1rem;
+}
+
+footer .footer-box p {
+    font-size: 14px;
+    font-size: 0.875rem;
+}
+
+footer .top {
+    bottom: 40px;
+    right: 40px;
+    width: 30px;
+    height: 30px;
+}
